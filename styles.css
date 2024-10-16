@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Header and Navigation */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #adb5bd !important;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Forms */
+.form-label {
+    font-weight: bold;
+}
+
+/* Table Styles */
+.table {
+    margin-top: 20px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+    width: 100%;
+}
+
+/* Alerts */
+.alert {
+    margin-top: 20px;
+}
+
+/* Centered Content */
+.text-center {
+    text-align: center;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Form Fields */
+.form-control {
+    border-radius: 5px;
+}
+
+.form-select {
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Custom Dashboard Styles */
+.dashboard-section {
+    margin-top: 30px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+/* Back to Dashboard Button */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* Quiz Styles */
+.form-check-input {
+    margin-right: 10px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar-brand, .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    
+    .btn {
+        font-size: 14px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+}
